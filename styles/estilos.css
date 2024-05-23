@@ -16,8 +16,9 @@ body {
 }
 
 .contenedor {
-	width: 95%;
-	max-width: 1000px;
+	width: 50%;
+	max-width: max-content;
+	height: 50%;
 	border:5px solid #000;
 	margin: auto;
 	font-size: 50px;

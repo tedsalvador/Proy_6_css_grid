@@ -1,11 +1,8 @@
 .contenedor {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	/*grid-template-columns: 16% 16% 47% 16%;*/
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-gap:20px;
-	width: 95%;
-	max-width: 95%;
 	border: 5px solid #000;
 }
 
@@ -37,16 +34,16 @@
 .main1:nth-child(7){
 	grid-column-start: span 2;
 }
+
 .contenedor .footer1{
-	background: #681094;
 	grid-column-start: span 1;
 }
+
 .contenedor .footer2{
-	background: #681094;
 	grid-column-start: span 1;
 }
+
 .contenedor .footer3{
-	background: #681094;
 	grid-column-start: span 4;
 }
 
